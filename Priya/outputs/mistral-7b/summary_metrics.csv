@@ -1,0 +1,7 @@
+model,mitigation,decoding,benchmark,bias_type,n_items,accuracy_supported,bias_ambiguous,unknown_rate_ambiguous,confidence_correct,confidence_incorrect_stereotype,spr,spr_ci_low,spr_ci_high,lms,ss,icat
+mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,bbq,gender,69,0.5862068965517241,0.025,0.85,0.33333333330000003,0.33333333330000003,,,,,,
+mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,bbq,race,55,0.5185185185185185,0.03571428571428571,0.8214285714285714,0.33333333330000003,0.33333333330000003,,,,,,
+mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,crows_pairs,gender,34,,,,,,97.05882352941177,91.17647058823529,100.0,,,
+mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,crows_pairs,race,86,,,,,,97.67441860465115,94.18604651162791,100.0,,,
+mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,stereoset,gender,29,,,,,,86.20689655172413,72.41379310344827,96.55172413793103,89.65517241379311,86.20689655172413,24.732461355529153
+mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,stereoset,race,91,,,,,,63.73626373626373,53.84615384615385,73.62637362637363,80.21978021978022,63.73626373626373,58.18137906049994

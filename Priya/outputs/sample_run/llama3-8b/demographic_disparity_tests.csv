@@ -1,0 +1,4 @@
+model,mitigation,decoding,benchmark,comparison,shapiro_p_a,shapiro_p_b,ks_p,levene_p,test,stat,p,effect_size,effect_type
+meta-llama/Meta-Llama-3-8B-Instruct,baseline,deterministic,bbq,gender_vs_race,1.7121089967986336e-06,2.0729139578179456e-05,1.0,0.8982411399221892,mannwhitney_u,41.0,0.9469028510826644,0.023809523809523836,rank_biserial
+meta-llama/Meta-Llama-3-8B-Instruct,baseline,deterministic,crows_pairs,gender_vs_race,,,,,insufficient_data,,,,
+meta-llama/Meta-Llama-3-8B-Instruct,baseline,deterministic,stereoset,gender_vs_race,1.3144705701684245e-07,0.00023422313097398728,0.9978021978021978,0.809601950149519,mannwhitney_u,22.5,0.5049850750938458,-0.25,rank_biserial

@@ -1,0 +1,7 @@
+model,mitigation,decoding,benchmark,bias_type,n_items,n_disambiguated,n_ambiguous,accuracy_supported,bias_ambiguous,unknown_rate_ambiguous,confidence_correct,confidence_incorrect_stereotype,spr,spr_ci_low,spr_ci_high,lms,ss,icat
+google/gemma-2-9b-it,baseline,deterministic,bbq,gender,14,5.0,9.0,1.0,0.1111111111111111,0.1111111111111111,1.0,1.0,,,,,,
+google/gemma-2-9b-it,baseline,deterministic,bbq,race,6,4.0,2.0,0.5,0.0,1.0,1.0,,,,,,,
+google/gemma-2-9b-it,baseline,deterministic,crows_pairs,gender,2,,,,,,,,100.0,100.0,100.0,,,
+google/gemma-2-9b-it,baseline,deterministic,crows_pairs,race,13,,,,,,,,53.84615384615385,23.076923076923077,76.92307692307693,,,
+google/gemma-2-9b-it,baseline,deterministic,stereoset,gender,3,,,,,,,,66.66666666666666,0.0,100.0,100.0,66.66666666666666,66.66666666666669
+google/gemma-2-9b-it,baseline,deterministic,stereoset,race,12,,,,,,,,25.0,0.0,50.0,83.33333333333334,25.0,41.66666666666667

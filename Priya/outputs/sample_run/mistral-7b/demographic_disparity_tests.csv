@@ -1,0 +1,4 @@
+model,mitigation,decoding,benchmark,comparison,shapiro_p_a,shapiro_p_b,ks_p,levene_p,test,stat,p,effect_size,effect_type
+mistralai/Mistral-7B-v0.1,baseline,deterministic,bbq,gender_vs_race,1.7121089967986336e-06,2.0729139578179456e-05,1.0,0.8982411399221892,mannwhitney_u,41.0,0.9469028510826644,0.023809523809523836,rank_biserial
+mistralai/Mistral-7B-v0.1,baseline,deterministic,crows_pairs,gender_vs_race,,,,,insufficient_data,,,,
+mistralai/Mistral-7B-v0.1,baseline,deterministic,stereoset,gender_vs_race,1.3144705701684245e-07,0.00012539594899863005,0.9406593406593404,1.0,mannwhitney_u,24.0,0.3505682483739899,-0.33333333333333326,rank_biserial

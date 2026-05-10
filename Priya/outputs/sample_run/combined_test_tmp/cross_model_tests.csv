@@ -1,0 +1,6 @@
+mitigation,decoding,benchmark,bias_type,model_a,model_b,shapiro_p_a,shapiro_p_b,ks_p,levene_p,test,stat,p,effect_size,effect_type
+baseline,deterministic,bbq,age,mistralai/Mistral-7B-v0.1,synthetic/second-model,2.888745029849815e-07,2.888745029849815e-07,1.0,1.0,mannwhitney_u,200.0,1.0,0.0,rank_biserial
+baseline,deterministic,crows_pairs,gender,mistralai/Mistral-7B-v0.1,synthetic/second-model,,,,,insufficient_data,,,,
+baseline,deterministic,crows_pairs,race,mistralai/Mistral-7B-v0.1,synthetic/second-model,5.571200017584488e-05,5.571200017584488e-05,1.0,1.0,mannwhitney_u,84.5,1.0,0.0,rank_biserial
+baseline,deterministic,stereoset,gender,mistralai/Mistral-7B-v0.1,synthetic/second-model,1.3144705701684245e-07,1.3144705701684245e-07,1.0,1.0,mannwhitney_u,4.5,1.0,0.0,rank_biserial
+baseline,deterministic,stereoset,race,mistralai/Mistral-7B-v0.1,synthetic/second-model,9.811225936573464e-06,9.811225936573464e-06,1.0,1.0,mannwhitney_u,72.0,1.0,0.0,rank_biserial

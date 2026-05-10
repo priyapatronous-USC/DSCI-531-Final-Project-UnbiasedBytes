@@ -1,0 +1,4 @@
+model,mitigation,decoding,benchmark,comparison,shapiro_p_a,shapiro_p_b,ks_p,levene_p,test,stat,p,effect_size,effect_type
+google/gemma-2-9b-it,baseline,deterministic,bbq,gender_vs_race,6.436945577981954e-14,1.8935536854834773e-12,0.9974059459249922,0.37887406670966095,mannwhitney_u,1822.5,0.37860170603675636,0.06538461538461537,rank_biserial
+google/gemma-2-9b-it,baseline,deterministic,crows_pairs,gender_vs_race,1.4629597373202799e-08,2.3499689288273595e-13,0.11199386587702051,0.41651709233372414,mannwhitney_u,1835.0,0.020686670808641235,-0.23361344537815132,rank_biserial
+google/gemma-2-9b-it,baseline,deterministic,stereoset,gender_vs_race,2.2396552150234087e-07,1.2984350177707313e-14,0.06895217338405937,0.3511626001211634,mannwhitney_u,1672.5,0.010289376865928535,-0.26752557787040554,rank_biserial
