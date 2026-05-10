@@ -1,4 +1,3 @@
-model,mitigation,decoding,benchmark,comparison,shapiro_p_a,shapiro_p_b,ks_p,levene_p,test,stat,p,effect_size,effect_type
-mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,bbq,gender_vs_race,1.578878556611934e-14,1.5274908950561088e-12,0.9999999999999998,0.7131462515828145,mannwhitney_u,1848.0,0.7143229075752986,0.02608695652173909,rank_biserial
-mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,crows_pairs,gender_vs_race,1.044784528678719e-12,4.0677157517585914e-20,1.0,0.8472621079232081,mannwhitney_u,1453.0,0.8547553388175257,0.006155950752393946,rank_biserial
-mistralai/Mistral-7B-Instruct-v0.2,baseline,deterministic,stereoset,gender_vs_race,1.047413304722884e-09,3.232776411746643e-14,0.18286850591501358,0.02242666315927312,mannwhitney_u,1616.0,0.023299766488429175,-0.224706328154604,rank_biserial
+version https://git-lfs.github.com/spec/v1
+oid sha256:0aaa0e84dc83b5cfb8b238ac068b90e5790df2b3cccaf063e9c132a9bdc7e13d
+size 825

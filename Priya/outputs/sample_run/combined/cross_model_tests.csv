@@ -1,19 +1,3 @@
-mitigation,decoding,benchmark,bias_type,model_a,model_b,shapiro_p_a,shapiro_p_b,ks_p,levene_p,test,stat,p,effect_size,effect_type
-baseline,deterministic,bbq,gender,google/gemma-2-9b-it,meta-llama/Meta-Llama-3-8B-Instruct,2.189835015542485e-07,1.7121089967986336e-06,1.0,0.5584699914777964,mannwhitney_u,91.0,0.5774298280195848,0.0714285714285714,rank_biserial
-baseline,deterministic,bbq,gender,google/gemma-2-9b-it,mistralai/Mistral-7B-v0.1,2.189835015542485e-07,1.7121089967986336e-06,1.0,0.5584699914777964,mannwhitney_u,91.0,0.5774298280195848,0.0714285714285714,rank_biserial
-baseline,deterministic,bbq,gender,meta-llama/Meta-Llama-3-8B-Instruct,mistralai/Mistral-7B-v0.1,1.7121089967986336e-06,1.7121089967986336e-06,1.0,1.0,mannwhitney_u,98.0,1.0,0.0,rank_biserial
-baseline,deterministic,bbq,race,google/gemma-2-9b-it,meta-llama/Meta-Llama-3-8B-Instruct,1.0,2.0729139578179456e-05,0.9999999999999998,0.34089313230205964,mannwhitney_u,15.0,0.40465676192728617,0.16666666666666663,rank_biserial
-baseline,deterministic,bbq,race,google/gemma-2-9b-it,mistralai/Mistral-7B-v0.1,1.0,2.0729139578179456e-05,0.9999999999999998,0.34089313230205964,mannwhitney_u,15.0,0.40465676192728617,0.16666666666666663,rank_biserial
-baseline,deterministic,bbq,race,meta-llama/Meta-Llama-3-8B-Instruct,mistralai/Mistral-7B-v0.1,2.0729139578179456e-05,2.0729139578179456e-05,1.0,1.0,mannwhitney_u,18.0,1.0,0.0,rank_biserial
-baseline,deterministic,crows_pairs,gender,google/gemma-2-9b-it,meta-llama/Meta-Llama-3-8B-Instruct,,,,,insufficient_data,,,,
-baseline,deterministic,crows_pairs,gender,google/gemma-2-9b-it,mistralai/Mistral-7B-v0.1,,,,,insufficient_data,,,,
-baseline,deterministic,crows_pairs,gender,meta-llama/Meta-Llama-3-8B-Instruct,mistralai/Mistral-7B-v0.1,,,,,insufficient_data,,,,
-baseline,deterministic,crows_pairs,race,google/gemma-2-9b-it,meta-llama/Meta-Llama-3-8B-Instruct,0.0001672692014835775,4.025121597805992e-06,0.2999201969117166,0.09609990712790006,mannwhitney_u,117.0,0.046586981226091576,-0.3846153846153846,rank_biserial
-baseline,deterministic,crows_pairs,race,google/gemma-2-9b-it,mistralai/Mistral-7B-v0.1,0.0001672692014835775,0.00011599278514040634,1.0,0.7054232991316594,mannwhitney_u,78.0,0.7193652849324416,0.07692307692307687,rank_biserial
-baseline,deterministic,crows_pairs,race,meta-llama/Meta-Llama-3-8B-Instruct,mistralai/Mistral-7B-v0.1,4.025121597805992e-06,0.00011599278514040634,0.12648770263254042,0.19934531134749128,mannwhitney_u,45.5,0.01921662979343652,0.46153846153846156,rank_biserial
-baseline,deterministic,stereoset,gender,google/gemma-2-9b-it,meta-llama/Meta-Llama-3-8B-Instruct,1.3144705701684245e-07,1.3144705701684245e-07,1.0,1.0,mannwhitney_u,4.5,1.0,0.0,rank_biserial
-baseline,deterministic,stereoset,gender,google/gemma-2-9b-it,mistralai/Mistral-7B-v0.1,1.3144705701684245e-07,1.3144705701684245e-07,1.0,1.0,mannwhitney_u,4.5,1.0,0.0,rank_biserial
-baseline,deterministic,stereoset,gender,meta-llama/Meta-Llama-3-8B-Instruct,mistralai/Mistral-7B-v0.1,1.3144705701684245e-07,1.3144705701684245e-07,1.0,1.0,mannwhitney_u,4.5,1.0,0.0,rank_biserial
-baseline,deterministic,stereoset,race,google/gemma-2-9b-it,meta-llama/Meta-Llama-3-8B-Instruct,4.397591692395508e-05,0.00023422313097398728,0.9984852944874484,0.40861621228256695,mannwhitney_u,60.0,0.41652393698019596,0.16666666666666663,rank_biserial
-baseline,deterministic,stereoset,race,google/gemma-2-9b-it,mistralai/Mistral-7B-v0.1,4.397591692395508e-05,0.00012539594899863005,1.0,0.6700978876143667,mannwhitney_u,66.0,0.6869503882729437,0.08333333333333337,rank_biserial
-baseline,deterministic,stereoset,race,meta-llama/Meta-Llama-3-8B-Instruct,mistralai/Mistral-7B-v0.1,0.00023422313097398728,0.00012539594899863005,1.0,0.6892508917413203,mannwhitney_u,78.0,0.705161071714777,-0.08333333333333326,rank_biserial
+version https://git-lfs.github.com/spec/v1
+oid sha256:d64de782e6fd0b0d94725ce507c69e7109d90e05752e4ef284acd6d1ea345643
+size 3804

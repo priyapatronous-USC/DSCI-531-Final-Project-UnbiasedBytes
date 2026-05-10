@@ -1,7 +1,3 @@
-model,mitigation,decoding,benchmark,bias_type,n_items,accuracy_supported,bias_ambiguous,unknown_rate_ambiguous,confidence_correct,confidence_incorrect_stereotype,spr,spr_ci_low,spr_ci_high,lms,ss,icat
-google/gemma-2-9b-it,baseline,deterministic,bbq,gender,65,0.8571428571428571,0.0,1.0,0.33333333330000003,,,,,,,
-google/gemma-2-9b-it,baseline,deterministic,bbq,race,60,0.9117647058823529,0.0,1.0,0.33333333330000015,,,,,,,
-google/gemma-2-9b-it,baseline,deterministic,crows_pairs,gender,35,,,,,,65.71428571428571,48.57142857142857,80.0,,,
-google/gemma-2-9b-it,baseline,deterministic,crows_pairs,race,85,,,,,,42.35294117647059,32.94117647058823,52.94117647058824,,,
-google/gemma-2-9b-it,baseline,deterministic,stereoset,gender,29,,,,,,58.620689655172406,41.37931034482759,75.86206896551724,82.75862068965517,58.620689655172406,68.48989298454224
-google/gemma-2-9b-it,baseline,deterministic,stereoset,race,91,,,,,,31.868131868131865,21.978021978021978,40.65934065934066,79.12087912087912,31.868131868131865,50.428692186933944
+version https://git-lfs.github.com/spec/v1
+oid sha256:75c6c6357e66e3de91d1b26bc17899b01591d37b1a2ba1eeff8cd5b29945ebc4
+size 1022
